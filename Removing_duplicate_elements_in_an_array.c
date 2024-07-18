@@ -8,6 +8,7 @@ int removeDuplicates(int arr[], int n)
             temp[j++] = arr[i];
     for (i = 0; i < j; i++)
        arr[i] = temp[i];
+    return j;
 }
 int main()
 {
